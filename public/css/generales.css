@@ -1,0 +1,17 @@
+
+/*root-> Este es un seudo-clase que seria como la raiz de un arbol (el principal) */
+
+:root{
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --font: "roboto";
+    --colorVerde: #39b54a;
+    --tamanioTexto: 12px;
+    --tamanioTitulares: 24px;
+    --tamanioPrecios: 18px;
+    --tamanioDescuentos: 16px;
+    --tamanioDescripciones: 16px;
+}

@@ -1,0 +1,31 @@
+ 
+body{
+   margin: 0%;
+}
+
+/*header*/
+.header_encabezado{
+   background-color: var(--colorAmarillo);
+
+}
+.div_logo{
+   padding: 10px;  
+   }
+ 
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--GrisOscuro);
+}
+.header_div_input{
+   margin-left: 10;
+
+}
+
+
+/*main*/
+
+
+/*footer*/
