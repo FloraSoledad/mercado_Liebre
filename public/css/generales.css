@@ -7,11 +7,20 @@
     --colorCeleste: #1259c3;
     --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
-    --font: "roboto";
+    --font: roboto;
     --colorVerde: #39b54a;
     --tamanioTexto: 12px;
     --tamanioTitulares: 24px;
     --tamanioPrecios: 18px;
     --tamanioDescuentos: 16px;
     --tamanioDescripciones: 16px;
+}
+
+li{
+    list-style: none;
+    font-size: var();
+}
+a{
+    text-decoration: none;
+    color: var(--GrisOscuro);
 }

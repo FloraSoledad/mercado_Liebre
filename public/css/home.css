@@ -1,31 +1,65 @@
  
 body{
    margin: 0%;
+   font-style: Roboto;
 }
-
 /*header*/
 .header_encabezado{
    background-color: var(--colorAmarillo);
-
+  padding: 5px;
 }
-.div_logo{
-   padding: 10px;  
+main{
+   text-align: center;
+}
+.logo{
+   margin-left: 5px;
+   padding: 10px; 
+   
    }
- 
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: var(--GrisOscuro);
-}
 .header_div_input{
-   margin-left: 10;
-
+   margin-left: 10px;
 }
-
-
+.header_div_p{
+   text-align: center;
+}
+ul{
+   padding: 0px;
+}
+.burguer_menu{
+   text-align: center;
+   width: 30px; 
+   height: 25px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 5px;
+   color: var(--colorGrisClaro);
+   background-color: var(--colorCeleste);
+   border-radius: 5px;
+}
 /*main*/
-
-
+.main_setion_h3{
+   font-style: var(--tamanioTexto);
+   text-align: center;
+}
+.main_section_h4{
+   font-size: var(--tamanioTitulares);
+}
+.main_section_article_p_precio{
+   font-size: var(--tamanioPrecios);
+}
+.main_section_article_p_descuento{
+   font-size: var(--tamanioDescuentos);
+}
+.main_section_article_p_descripcion{
+   font-size: var(--tamanioDescripciones);
+}
 /*footer*/
+.footer_section{
+   text-align: center;
+   color: var(--colorAzul)
+}
+.footer_article_i{
+   font-size: 2em;
+   margin-bottom: 10px;
+   
+}
