@@ -54,12 +54,29 @@ ul{
    font-size: var(--tamanioDescripciones);
 }
 /*footer*/
-.footer_section{
+footer{
    text-align: center;
-   color: var(--colorAzul)
-}
-.footer_article_i{
-   font-size: 2em;
+   padding: 20px;
+   color: var(--colorGrisOscuro);
+   margin: 0;
+} 
+.footer_nav_div{
+   color: var(--colorCeleste);
+   background-size: 2em;
    margin-bottom: 10px;
-   
-}
+ }
+ h6{
+   text-align: left;
+ }
+ h5{
+   font-size: var(--tamanioDescripciones);
+   margin: 2%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+ }
+ .footer_section_p
+ {
+   margin: 0%;
+   margin-top: 0%;
+   margin-bottom: 5%;
+ }
