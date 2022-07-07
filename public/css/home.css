@@ -1,7 +1,7 @@
  
 body{
    margin: 0%;
-   font-style: Roboto;
+   font-style: var(--tipografia);
 }
 /*header*/
 .header_encabezado{
@@ -78,5 +78,5 @@ footer{
  {
    margin: 0%;
    margin-top: 0%;
-   margin-bottom: 5%;
+   margin-bottom: 10%;
  }
