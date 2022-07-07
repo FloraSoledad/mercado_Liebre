@@ -6,7 +6,7 @@ body{
 /*header*/
 .header_encabezado{
    background-color: var(--colorAmarillo);
-  padding: 5px;
+  padding: 3px;
 }
 main{
    text-align: center;
