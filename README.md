@@ -2,7 +2,7 @@
 
 ## ESTRUCTURA DE UN SITIO WEB
 
-## Practica Integradora en la cual usamos HTML y CSS, para poder maquetar un sitio web.GIT 
+## Practica Integradora en la cual usamos HTML y CSS, para poder maquetar un sitio web.
 
 # MERCADO LIEBRE 2
 
