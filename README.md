@@ -7,5 +7,4 @@
 ### [Sprint 1] (https://github.com/FloraSoledad/mercado_Liebre.git/agregandoestilosalsitioweb)
 
 ## DISEÑO ADAPTATIVO
-### [Sprint 3] (https://github.com/FloraSoledad/mercado_Liebre.git/diseñoadaptativo)
- -->
+### [Sprint 3] (https://github.com/FloraSoledad/mercado_Liebre.git/diseñoadaptativo) -->
