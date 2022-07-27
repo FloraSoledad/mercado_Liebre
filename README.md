@@ -1,9 +1,10 @@
-# MERCADO LIEBRE 1
+<!-- # MERCADO LIEBRE
 
 ## ESTRUCTURA DE UN SITIO WEB
-
-## Practica Integradora en la cual usamos HTML y CSS, para poder maquetar un sitio web.
-
-# MERCADO LIEBRE 2
+### [Sprint 1] (https://github.com/FloraSoledad/mercado_Liebre.git/estructuradeunsitioweb)
 
 ## AGREGANDO ESTILOS AL SITIO WEB
+### [Sprint 1] (https://github.com/FloraSoledad/mercado_Liebre.git/agregandoestilosalsitioweb)
+
+## DISEÑO ADAPTATIVO
+### [Sprint 3] (https://github.com/FloraSoledad/mercado_Liebre.git/diseñoadaptativo) -->
