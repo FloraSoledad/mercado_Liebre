@@ -1,21 +1,41 @@
  
 /*mobile*/
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   /* flex-wrap: nowrap; */
+   }
 
 body{
    margin: 0%;
-   font-style: var(--tipografia);
+   font-style: var(--tipografia); 
 }
 /*header*/
 header{
    background-color: var(--colorAmarillo);
-  padding-bottom: 10px;
+   padding-bottom: 10px;
+   width: 100%;  
+}
+.main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%; 
+}
+.header_div {
+   display: flex;
 }
 .logo{
-   margin-left: 5px;
-   padding: 10px; 
+   margin: 5px;
+   padding: 10px;
+   flex: 50%;
 }
 .header_div_input{
-   margin-left: 10px;
+   margin: 10px;
+   padding: 10px;
+   flex: 50%;
 }
 .header_div_p{
    text-align: center;
@@ -39,32 +59,42 @@ ul{
    display: flex;
    flex-direction: column;
    align-items: center;
-   width: 90%;
-
+   display: flex;
+   width: 100%;
 }
 .main_article{
    margin: 10px;
    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
-.main_article_div{
+.main_article_div {
    border-top: 1px solid #ebebeb;
    padding: 15px;
-   width: 90%;
-   padding: 15px;
+   width: 100%;
+   display: flex;
+   align-items: center;
 }
 .main_article_div i{
-   padding: 15px;
-   display: inline-block;
-   padding: 10px;
-   color: #39b54a;
+   display: block;
+   font-size: 16  px;
+   padding: 5px;
+   width: 30px;
+   height: 30px;
    border: 1px solid #39b54a;
+   background-color: #FFF ;
    border-radius: 50%;
-   justify-content: baseline;
-}
+   color: #39b54a;
+   position: absolute;
+   right: 20px;
+   top: -30px;
+   position: relative;
+   align-self: baseline;
+} 
 .article_precio{
+   flex: 30%;
    margin: 0%;
 }
 .article_descuento{
+   flex: 70%;
    color: #39b54a;
    margin: 0%;
 }
@@ -73,8 +103,9 @@ ul{
    margin-left: 0px;
 }
 .main_section_h4{
-   font-size: var(--tamanioTitulares);
-   margin-left: 0px;
+  font-size: var(--tamanioTitulares);
+  color: var(--colorGrisOscuro);
+  
 }
 
 .main_section_article_p_descripcion{
@@ -114,8 +145,6 @@ footer{
    .main_section_h4 {
       display: none;
    }
-
-
 }
 
 /*Tablets*/
@@ -125,7 +154,7 @@ footer{
    }
    .burguer_menu {
       display: none;
-   }
+   } 
 } 
 
 /*Destok*/
