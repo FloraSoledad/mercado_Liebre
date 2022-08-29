@@ -3,8 +3,9 @@
 * {
    margin: 0px;
    padding: 0px;
+   width: 100%;
    box-sizing: border-box;
-   /* flex-wrap: nowrap; */
+   
    }
 
 body{
@@ -54,12 +55,21 @@ ul{
    background-color: var(--colorCeleste);
    border-radius: 5px;
 }
+
 /*main*/
 .main{
    display: flex;
    flex-direction: column;
    align-items: center;
    display: flex;
+   width: 100%;
+}
+.main_section{
+   text-align: center;
+}
+
+
+.main_div_img{
    width: 100%;
 }
 .main_article{
@@ -72,6 +82,7 @@ ul{
    width: 100%;
    display: flex;
    align-items: center;
+   position: relative;
 }
 .main_article_div i{
    display: block;
@@ -85,8 +96,8 @@ ul{
    color: #39b54a;
    position: absolute;
    right: 20px;
-   top: -30px;
-   position: relative;
+   top: -15px;
+   
    align-self: baseline;
 } 
 .article_precio{
@@ -101,6 +112,8 @@ ul{
 .main_section_h3{
    font-style: var(--tamanioTexto);
    margin-left: 0px;
+   text-align: left;
+   margin-left: 3%;
 }
 .main_section_h4{
   font-size: var(--tamanioTitulares);
@@ -125,6 +138,7 @@ footer{
  }
  h6{
    text-align: left;
+   margin-left: 3%;
  }
  h5{
    font-size: var(--tamanioDescripciones);
@@ -141,28 +155,49 @@ footer{
 
 
 /*  Mobile */
-@media (max-width:768px) {
-   .main_section_h4 {
+@media (min-width:320) and (max-width:768px) { 
+   .main_section_h4{
       display: none;
-   }
-}
-
+    }
+  }
 /*Tablets*/
-@media (min-width:769px) and (max-width:1024px) {
+@media (min-width:769px)
+ {
    .body{
       box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
    }
    .burguer_menu {
       display: none;
-   } 
-} 
+   }
+   .main_section_productos{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+   }
+   .main_article{  
+      width: 44%;
+      margin-left: 3%;
+   }
+ }
 
 /*Destok*/
 @media (min-width:1024px){
    .body{
       box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
    }
+   .main_section_productos{
+      flex-wrap: nowrap;
+     }
+    
+   .main_section_productos{
+      flex-wrap: nowrap;
+   }
    .burguer_menu {
       display: none;
    }
+   .main_article{  
+      width: 20%;
+   }     
 }

@@ -1,12 +1,16 @@
- # MERCADO LIEBRE
+ ## MERCADO LIEBRE
 
-## ESTRUCTURA DE UN SITIO WEB
+## Estructura de un sitio web HTML.
+### [Sprint 1](https://github.com/FloraSoledad/mercado_Liebre/tree/master)
 
+## Agregando estilos CSS.
+### [Sprint 2](https://github.com/FloraSoledad/mercado_Liebre/tree/estilos)
 
-<!-- ### [Sprint 1] (https://github.com/FloraSoledad/mercado_Liebre.git/estructuradeunsitioweb)
+## Diseño adaptativo.
+### [Sprint 3](https://github.com/FloraSoledad/mercado_Liebre/tree/disenio/public)
 
-## AGREGANDO ESTILOS AL SITIO WEB
-### [Sprint 1] (https://github.com/FloraSoledad/mercado_Liebre.git/agregandoestilosalsitioweb)
+## FlexBox
+### [Sprint 4](https://github.com/FloraSoledad/mercado_Liebre/tree/flexbox)
 
-## DISEÑO ADAPTATIVO
-### [Sprint 3] (https://github.com/FloraSoledad/mercado_Liebre.git/diseñoadaptativo) -->
+## Formulario
+### [Sprint 5]
