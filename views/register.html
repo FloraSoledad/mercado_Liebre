@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main class="register__main">
+        <form action="" class="form">
+            <div class="form__div">
+                <h4>Nombre y Apellido</h4>
+                <input type="text" name="name" placeholder="Nombre y Apellido">
+            </div>
+            <div class="form__div">
+                <h4>Nombre de usuario</h4>
+                <input type="text" name="user" placeholder="Nombre de usuario">
+            </div>
+            <div class="form__div">
+                <h4>E-mail</h4>
+                <input type="text" name="email" placeholder="E-mail">
+            </div>
+            <div class="form__div">
+                <h4>Fecha de Nacimiento</h4>
+                <input type="date" name="birth_date" id="birth_date" min="1900-01-01">
+            </div>
+            <div class="form__div">
+                <h4>Domicilio</h4>
+                <input type="text" name="addres" placeholder="Domicilio">
+            </div>
+            <div class="form_div_radio">
+                <h4>Perfil del usuario</h4>
+                <label for="perfilDeUsuario"><input type="radio"  name="perfilDeUsuario" value="comprador"> Comprador
+                </label>
+                <label for="perfilDeUsuario"><input type="radio" name="perfilDeUsuario" value="vendedor">
+                    vendedor</label>
+            </div>
+            <div class="form_div_checkbox">
+                <h4>Intereses</h4>
+                <label for=""><input type="checkbox" name="categoriaDeInteres" id=""> Electro</label>
+                <label for=""><input type="checkbox" name="categoriaDeInteres" id=""> Moda</label>
+                <label for=""><input type="checkbox" name="categoriaDeInteres" id=""> Hogar</label>
+                <label for=""><input type="checkbox" name="categoriaDeInteres" id=""> Jugueteria</label>
+                <label for=""><input type="checkbox" name="categoriaDeInteres" id=""> Vida sana</label>
+            </div>
+            <div class="form__div">
+                <h4>Elegí tu foto de usuario</h4>
+                <input type="file" name="avatar" accept=".jpg">
+            </div>
+            <div class="form__div">
+                <h4>Contraseña</h4>
+                <input type="password" name="pass" placeholder="Elegí tu contraseña">
+            </div>
+            <div class="form__div">
+                <h4>Confirmá contraseña</h4>
+                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+            </div>
+            <div class="form_div_button">
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+            
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
