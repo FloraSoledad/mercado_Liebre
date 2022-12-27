@@ -1,0 +1,143 @@
+header{
+    background-color: var(--colorAmarillo);
+    font-family: 'Roboto';
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+
+
+ }
+ .header_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+ }
+ .logo{
+    width: 46%;
+}
+
+ .logo img{
+    width: 100%;
+    padding: 15px;
+ }
+ .header_div_input{
+    width: 52%;
+    text-align: center;
+    gap: 1px;
+ }
+
+.header_div_input-buscador{
+    width: 86%;
+    height: 30px;
+    border-radius: 5px;
+ }
+ .header_div_input form button{
+    height: 25px;
+    width: 12%;
+    border-radius: 5px;
+ }
+ .nad-var{
+display: none;
+ }
+ .nad-var ul{
+   padding: 0px;
+   list-style: none;
+   width: 100%;
+ }
+ .index__header__div-p{
+ width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+
+ .burguer_menu{
+   text-align: center ;
+   font-size: 20px;
+ }
+ .burguer_menu button{
+   width: 100%;
+   background-color: var(--colorCeleste);
+   color: white;
+   border: solid 1px black;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+ }
+
+
+
+ /* tablet */
+ @media (min-width:768px ){
+   .header{
+      gap: 15px 0px;
+  }
+  
+  .header{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  .header_div_input-buscador{
+      height: 30px;
+      border-radius: 5px;
+  }
+  .header_div_input button{
+      height: 25px;
+      width: 25px;
+      border-radius: 5px;
+  }
+  .index__header__div-p{
+      width: 35%;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .header_div{
+   justify-content: space-around;
+   width: 70%;
+gap: 40px;}
+  .logo{
+   width: 23%;
+}
+.header_div_input{
+   width: 60%;
+}
+.index__header__div-p{
+   width: 30%;
+}
+.index__header__div-p p{
+   width: 100%;
+}
+
+.burguer_menu{
+      display: none;
+  }
+.nad-var{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.nad-var ul{
+   display: flex;
+   flex-wrap: wrap;
+   width: 40%;
+   justify-content: space-around;
+ 
+}
+.nad-var ul li{
+   text-decoration: none;
+
+
+}
+.nad-var ul li a{
+   color:rgba(0,0,0,0.8);
+}
+ }

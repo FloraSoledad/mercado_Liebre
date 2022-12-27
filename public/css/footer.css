@@ -1,0 +1,47 @@
+.index_footer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 10px;
+
+}
+.index_footer i{
+    color: var(--color_Celeste);
+    margin-bottom: 10px;
+   font-size: 2em;
+
+
+}
+.index_footer_div p{
+    margin: 5px;
+    padding: 15px 0px;
+}
+
+.index_footer_div{
+    text-align: left;
+}
+
+@media (min-width:768px ){
+
+    .index_footer{
+        justify-content: space-around;
+    }
+    .index_footer_div p{
+        margin: 20px;
+        padding: 15px 10px;
+    }
+    .index_footer_section-pago{
+    width: 30%;
+    }
+    .index_footer_section-envio{
+        width: 30%;
+    
+    }
+    .index_footer_section-seguridad{
+        width: 30%;
+    
+    }
+
+
+}

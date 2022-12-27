@@ -3,7 +3,6 @@
 * {
    margin: 0px;
    padding: 0px;
-   width: 100%;
    box-sizing: border-box;
    
    }
@@ -11,50 +10,19 @@
 body{
    margin: 0%;
    font-style: var(--tipografia); 
+
+   background-color: var(--colorGrisClaro)
 }
 /*header*/
-header{
-   background-color: var(--colorAmarillo);
-   padding-bottom: 10px;
-   width: 100%;  
-}
+
 .main{
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   width: 100%; 
+   width: 90%; 
 }
-.header_div {
-   display: flex;
-}
-.logo{
-   margin: 5px;
-   padding: 10px;
-   flex: 50%;
-}
-.header_div_input{
-   margin: 10px;
-   padding: 10px;
-   flex: 50%;
-}
-.header_div_p{
-   text-align: center;
-}
-ul{
-   padding: 0px;
-}
-.burguer_menu{
-   text-align: center;
-   width: 30px; 
-   height: 25px;
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 5px;
-   color: var(--colorGrisClaro);
-   background-color: var(--colorCeleste);
-   border-radius: 5px;
-}
+
 
 /*main*/
 .main{
@@ -166,9 +134,7 @@ footer{
    .body{
       box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
    }
-   .burguer_menu {
-      display: none;
-   }
+   
    .main_section_productos{
       display: flex;
       flex-direction: row;
